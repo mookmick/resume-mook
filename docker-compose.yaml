@@ -1,8 +1,8 @@
 version: '3'
 services:
   myapp:
-    image: mook/node-express-resume
+    image: mookmick/resume-mooknpm
     ports:
-      - "8000:8000"
-    command: "npm start"
+      - "8025:8000"
+    command: "node index.js"
 
